@@ -12,7 +12,7 @@ const login = async (req, res, next) => {
     );
 
     if (result.rows.length === 0)
-      return res.status(404).json({ message: "User not found" });
+      return res.status(404).json({ message: "email or password incorrect" });
 
     const user = result.rows[0];
     const accessToken = jwt.sign(
@@ -29,7 +29,7 @@ const login = async (req, res, next) => {
       token: accessToken,
     });
   } catch (error) {
-    next(error);
+    next(res.json({ error: error }));
   }
 };
 
