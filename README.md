@@ -67,4 +67,4 @@ To include the token on your headers, add a `key`-`value` pair in this way:
 - `key`: Authorization
 - `value`: Token token="`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjY2MzU5OTg5LCJleHAiOjE2NjYzNjM1ODl9.6kY3aJ7NHq4OfWTxNjMPfnNLPdmB9Ypxvpat1fPycNU`"
 
-###URL API: [link](https://vinco-movies-api.herokuapp.com/),
+`https://vinco-movies-api.herokuapp.com`
