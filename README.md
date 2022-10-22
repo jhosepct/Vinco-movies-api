@@ -12,7 +12,7 @@ Welcome to Movies-API. 😎
 
 ### Endpoints
 
-All applications are located in the file movies-insomnia.json download and import in insomnia
+All applications are located in the file `movies-insomnia.json` download and import in insomnia
 
 Here the list of available endpoints. The most important are marked with (\*)
 
