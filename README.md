@@ -1,4 +1,4 @@
-# Organizable API
+# Movies API
 
 Welcome to Movies-API. 😎
 
